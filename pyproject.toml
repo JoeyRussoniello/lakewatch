@@ -1,0 +1,25 @@
+[project]
+name = "lakewatch"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "pandas>=2.3.1",
+    "pydantic>=2.11.7",
+    "pyspark>=4.0.0",
+    "pyyaml>=6.0.2",
+    "rich>=14.1.0",
+    "typer>=0.16.1",
+]
+
+[dependency-groups]
+dev = [
+    "black>=25.1.0",
+    "build>=1.3.0",
+    "mypy>=1.17.1",
+    "pytest>=8.4.1",
+    "pytest-cov>=6.2.1",
+    "ruff>=0.12.9",
+    "twine>=6.1.0",
+]

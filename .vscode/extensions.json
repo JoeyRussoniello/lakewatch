@@ -1,0 +1,7 @@
+{
+    "recommendations": [
+        "charliermarsh.ruff",
+        "aaron-bond.better-comments",
+        "ms-python.python",   
+    ]
+}
